@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "azure-tutorials-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/azureTutorials/AzureTutorialsWebPart.js",
+          "manifest": "./src/webparts/azureTutorials/AzureTutorialsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AzureTutorialsWebPartStrings": "lib/webparts/azureTutorials/loc/{locale}.js"
+  }
+}

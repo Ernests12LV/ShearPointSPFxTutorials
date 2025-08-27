@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.4",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "shear-point-sp-fx-tutorials",
+    "libraryId": "5de1f47d-f67f-4e36-92e6-ef4e7ac80d66",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "shear-point-sp-fx-tutorials",
+    "solutionShortDescription": "shear-point-sp-fx-tutorials description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

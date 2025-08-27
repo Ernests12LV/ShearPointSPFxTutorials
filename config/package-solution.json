@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "shear-point-sp-fx-tutorials-client-side-solution",
+    "id": "5de1f47d-f67f-4e36-92e6-ef4e7ac80d66",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "shear-point-sp-fx-tutorials description"
+      },
+      "longDescription": {
+        "default": "shear-point-sp-fx-tutorials description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "shear-point-sp-fx-tutorials Feature",
+        "description": "The feature that activates elements of the shear-point-sp-fx-tutorials solution.",
+        "id": "b48a06d8-0751-4f4d-be62-edd7e011a506",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/shear-point-sp-fx-tutorials.sppkg"
+  }
+}
