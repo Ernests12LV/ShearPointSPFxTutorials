@@ -2,7 +2,6 @@ import {
     Context,
     HttpMethod,
     HttpRequest,
-    HttpResponse,
     HttpStatusCode
 } from "azure-functions-ts-essentials";
 
@@ -40,10 +39,10 @@ export async function run(context: Context, req: HttpRequest): Promise<any> {
     const customerid = req.params ? req.params.customerid : null;
 
     switch (req.method) {
-        case HttpMethod.GET:
+        case HttpMethod.Get:
             response = customerid ? getCustomerById(customerid) : getAllCustomers();
             break;
-        case HttpMethod.POST:
+        case HttpMethod.Post:
             response = addNewCustomer(req.body);
             break;
         default:
