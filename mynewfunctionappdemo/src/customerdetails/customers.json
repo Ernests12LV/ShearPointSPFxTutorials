@@ -1,0 +1,68 @@
+[
+    {
+        "id": "1",
+        "joined": "2022-01-15",
+        "name": "John Doe",
+        "city": "New York",
+        "orderTotal": 150.75,
+        "orders": [
+            {
+                "id": 1,
+                "product": "Laptop",
+                "quantity": 1,
+                "price": 150.75
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "joined": "2022-02-20",
+        "name": "Jane Smith",
+        "city": "Los Angeles",
+        "orderTotal": 200.50,
+        "orders": [
+            {
+                "id": 2,
+                "product": "Smartphone",
+                "quantity": 1,
+                "price": 200.50
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "joined": "2022-03-10",
+        "name": "Alice Johnson",
+        "city": "Chicago",
+        "orderTotal": 300.00,
+        "orders": [
+            {
+                "id": 3,
+                "product": "Tablet",
+                "quantity": 1,
+                "price": 300.00
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "joined": "2022-04-05",
+        "name": "David Brown",
+        "city": "Houston",
+        "orderTotal": 400.25,
+        "orders": [
+            {
+                "id": 4,
+                "product": "Monitor",
+                "quantity": 1,
+                "price": 400.25
+            },
+            {
+                "id": 5,
+                "product": "Keyboard",
+                "quantity": 2,
+                "price": 50.00
+            }
+        ]
+    }
+]
